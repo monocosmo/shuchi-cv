@@ -55,7 +55,7 @@
             <a class="nav-link js-scroll-trigger" href="#awards">Awards</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger" href="https://www.dropbox.com/scl/fi/2dxb56fr9ljvloskeeu0h/Shuchi_resume_12DEC23.pdf?rlkey=xakgnhfedvcehxwle4e1c9ri5&dl=0">Resume</a>
+            <a class="nav-link js-scroll-trigger" href="https://www.dropbox.com/scl/fi/cpl5dp5r5vch1h8to1v9f/Shuchi_resume_08JAN24.pdf?rlkey=ecl98ccrakyky652owngklsgi&dl=0">Resume</a>
           </li>
         </ul>
       </div>
@@ -102,16 +102,16 @@
               <div class="subheading mb-3">ByteDance (Tiktok)</div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                  Leading a team of five SREs to develop 50+ metrics, monitors and alerts and maintain global stability of the model training system/platform which supports 10k+ machine learning models for Tiktok. 
+                  Led a high-performing team of five Site Reliability Engineers (SREs) in developing 50+ metrics, alerts, and automation tools. Spearheaded efforts to ensure the global stability of the model training system/platform, supporting over 10,000 machine learning models for TikTok. 
                 </li>
                 <li class="list-group-item">
-                  Developed an interactive chatbot (Python Flask) to support user help-self operations, parameter server self-diagnosis and model training health check that reduces meantime to resolution (MTTR) by 30%.
+                  Developed an interactive chatbot (Python Flask) to support user help-self operations and system self-diagnosis. Achieved a remarkable 30% reduction in Mean Time to Resolution (MTTR).
                 </li>
                 <li class="list-group-item">
-                  Added quota and priority scheduling features to the FIFO model publishing system, which mitigates resource competition and increases scheduling efficiency
+                  Implemented quota and priority scheduling features to the FIFO model publishing system, effectively mitigating resource competition and significantly increasing scheduling efficiency.
                 </li>
                 <li class="list-group-item">
-                  Implemented an automated pipeline of mixed-precision model training (FP32 to FP16) that reduces memory costs by 32% at the streaming training stage.
+                  Built an automated pipeline of mixed-precision model training (FP32 to FP16) that reduces parameter server memory costs by 32% at the streaming training stage.
                 </li>
               </ul>
             </div>
@@ -126,19 +126,16 @@
               <div class="subheading mb-3">ByteDance (Tiktok)</div>
               <ul class="list-group list-group-flush">
                 <li class="list-group-item">
-                  Developed a Grafana dashboard of the distributed model training system that integrates machine group CPU/memory usage, op tasks status, instance data reading from HDFS/Kafka, and model training lifecycle. 
+                  Implemented a model parameter eviction algorithm by using Taylor Expansion to estimate parameter importance and selectively remove less crucial ones. Saved over 25% memory usage on parameter servers while preserving the same model performance. 
                 </li>
                 <li class="list-group-item">
-                  Improved the parameter server monitoring website (React and Python Flask) by adding user self-services features like baseline model tagging, user whitelisting and model training pausing. 
+                  Optimized model training system monitors through the deployment of parallel processing (Python ThreadPoolExecutor), resulting in a 50% reduction of the time costs for overall scanning iterations. 
                 </li>
                 <li class="list-group-item">
-                  Implemented an automated model republishing system that periodically pushes baseline models to online parameter server replicas that mitigates model replicas inconsistency.
+                  Constructed a Grafana dashboard for the distributed model training system, integrating machine group CPU/memory usage, instance data reading from HDFS/Kafka, and the life cycle of model training.
                 </li>
                 <li class="list-group-item">
-                  Maintained global parameter servers by routinely deploying and tagging, diagnosing machine and network problems, and replacing malfunctioning machines.
-                </li>
-                <li class="list-group-item">
-                  Provided on-call support for model training and serving including training life cycle management, HDFS instance data/Kafka message queue reading, and model maintenance.
+                  Developed an automated model republishing system based on "eventual consistency" design, enhancing model parameter consistency in an asynchronously updating distributed system.
                 </li>
               </ul>
             </div>
